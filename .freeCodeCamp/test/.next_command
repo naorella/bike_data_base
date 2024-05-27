@@ -28,3 +28,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo ' M e '
 ecoh "$(echo ' M e ')."
 echo "$(echo ' M e ')."
+echo "$(echo ' M e ')."
+echo "$(echo ' M e ' | sed 's/ //')."
