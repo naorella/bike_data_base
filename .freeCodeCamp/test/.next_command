@@ -42,3 +42,5 @@ echo "$(echo ' M e ' | sed 's/# $//g')."
 echo "$(echo ' M e ' | sed 's/. $//g')."
 echo "$(echo ' M e ' | sed 's/ *$//g')."
 echo "$(echo ' M e ' | sed 's/ *$|^ *//g')."
+manual sed
+man sed
