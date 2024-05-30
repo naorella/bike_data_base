@@ -58,3 +58,6 @@ echo "$(echo ' M e ' | sed -E 's/ *$|^ *//g')."
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+git remote add origin https://github.com/naorella/bike_data_base.git
+git branch -M main
+git push -u origin main
